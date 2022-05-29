@@ -20,15 +20,15 @@ body {
   border: 1px solid #DFDFDF;
 }
 .container .title {
-  margin-top: 15vh;
+  margin-top: 10vh;
   font-weight: bold;
 }
 .container .image {
-  margin-top: 5vh;
+  margin-top: 3vh;
   width: 25%;
 }
 .container form {
-  margin-top: 15vh;
+  margin-top: 10vh;
   width: 90%;
 }
 .container form input {

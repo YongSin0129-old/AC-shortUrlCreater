@@ -3,7 +3,7 @@ const Buffer = require('node:buffer').Buffer
 function URLto5DigitalWord (url) {
   const DigitalWord = Buffer.from(url)
     .toString('base64')
-    .slice(0, 5)
+    .slice(-7, -2)
   return DigitalWord
 }
 
