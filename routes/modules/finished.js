@@ -2,7 +2,8 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  res.render('finished')
+  const input = req.query.input_URL
+  res.send(input)
 })
 
 module.exports = router
