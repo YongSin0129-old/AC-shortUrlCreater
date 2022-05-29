@@ -1,6 +1,6 @@
-![image](./picture/restaurants%20homepage.png)
+![image](./public/pictures/homepage.png)
 
-# 餐廳收集網
+# 短網址產生器
 
 一個使用 Node.js + Express + MongoDB + Mongoose 打造的短網址產生器
 
