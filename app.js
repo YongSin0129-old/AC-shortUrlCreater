@@ -1,5 +1,6 @@
 const express = require('express')
 const hbs = require('express-handlebars').engine
+const route = require('./routes')
 
 const app = express()
 const port = 3000
@@ -11,9 +12,8 @@ app.set('views', './views')
 // middleware
 app.use(express.static('public'))
 
-app.get('/', (req, res) => {
-  res.render('home')
-})
+// routes
+app.use(route)
 
 app.listen(port, () => {
   console.log(`server is running on http://localhost:${port}`)
