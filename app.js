@@ -8,6 +8,9 @@ app.engine('hbs', hbs({ defaultLayout: 'main', extname: 'hbs' }))
 app.set('view engine', 'hbs')
 app.set('views', './views')
 
+// middleware
+app.use(express.static('public'))
+
 app.get('/', (req, res) => {
   res.render('home')
 })
